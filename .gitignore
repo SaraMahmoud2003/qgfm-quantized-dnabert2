@@ -1,0 +1,10 @@
+# Never commit weights, raw sequences or Drive collections
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+partitions.parquet
+qgfm_collect_*/
+__pycache__/
+.ipynb_checkpoints/
